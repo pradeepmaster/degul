@@ -1,7 +1,7 @@
 package logical;
 
 import java.util.Scanner;
-
+//am god
 public class Armstrongs {
 
 	public static void main(String[] args) {
