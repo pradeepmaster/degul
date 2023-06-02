@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.hrm.HRHead.BaseClassDemo"/>
+      <class name="com.hrm.Employee.ModifyEmployee"/>
+      <class name="com.hrm.Employee.ModifyEmployeeByHRAssistant"/>
+      <class name="com.hrm.Coropate.ModifyCorporate"/>
+     <!-- <class name="SDET48.TestNGDemo"/> -->
+      <class name="com.hrm.Employee.sample"/>
+      <class name="com.hrm.Coropate.DeleteCorporate"/>
+      <class name="com.hrm.Employee.DeleteEmployeeByHROfficer"/>
+      <class name="SDET48.DataProviderUsingExcel"/>
+      <class name="com.hrm.Employee.DeleteEmployee"/>
+      <class name="SDET48.PrintTheDataProvider"/>
+      <class name="com.hrm.HRHead.CreateAdmin"/>
+      <class name="SDET48.DataProviderEx"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

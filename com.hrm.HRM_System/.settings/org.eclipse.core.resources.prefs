@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/test/java/com/hrm/Coropate/DeleteCorporate.java=UTF-8
+encoding//src/test/java/com/hrm/Coropate/ModifyCorporate.java=UTF-8
+encoding//src/test/java/com/hrm/Employee/DeleteEmployee.java=UTF-8
+encoding//src/test/java/com/hrm/Employee/DeleteEmployeeByHROfficer.java=UTF-8
+encoding//src/test/java/com/hrm/Employee/ModifyEmployee.java=UTF-8
+encoding//src/test/java/com/hrm/Employee/ModifyEmployeeByHRAssistant.java=UTF-8
+encoding//src/test/java/com/hrm/HRHead/CreateAdmin.java=UTF-8
+encoding//src/test/java/com/hrm/HRHead/CreateAdmin2.java=UTF-8
