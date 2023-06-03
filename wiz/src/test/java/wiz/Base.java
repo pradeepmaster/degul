@@ -24,7 +24,7 @@ public void tes()
 	}
 	else 
 	{
-		dr=new FirefoxDriver();
+		dr=new ChromeDriver();
 	}
 	dr.get(u);
 	System.out.println("ALL CLEAR");
