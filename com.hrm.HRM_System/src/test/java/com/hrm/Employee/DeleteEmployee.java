@@ -1,36 +1,23 @@
 package com.hrm.Employee;
 
-import java.io.File;
 import java.io.IOException;
-import java.time.Duration;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
 
 import org.apache.poi.EncryptedDocumentException;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.WebDriver.TargetLocator;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import POM.AddAdminPage;
 import POM.AddEmployeePage;
 import POM.HomePage;
 import POM.LoginPage;
 import hrmGenericUtilities.BaseClass;
-import hrmGenericUtilities.ExcelUtility;
-import hrmGenericUtilities.FileUtility;
-import hrmGenericUtilities.JavaUtility;
-import hrmGenericUtilities.WebDriverUtility;
-
+@Listeners(hrmGenericUtilities.ListenerImplement.class)
 public class DeleteEmployee extends BaseClass {
 	@Test(groups="smokeTest")
 	public void createEmployeeAsHrHeadAndDelete() throws EncryptedDocumentException, IOException, InterruptedException {
 		LoginPage loginPage=new LoginPage(driver);
 		HomePage homePage=new HomePage(driver);
+		Assert.fail();
 		AddEmployeePage addEmployeePage=new AddEmployeePage(driver);
 		String text="su";
 		

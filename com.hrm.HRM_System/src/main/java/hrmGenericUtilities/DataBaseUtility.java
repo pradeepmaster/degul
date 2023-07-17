@@ -12,7 +12,7 @@ public class DataBaseUtility {
 	public void connectToDB() throws SQLException {
 		Driver driver=new Driver();
 		DriverManager.registerDriver(driver);
-//		con = DriverManager.getConnection("jdbc:mysql://rmgtestingserver:3333/projects,'root@%','root'");
+		con = DriverManager.getConnection("jdbc:mysql://rmgtestingserver:3333/projects,'root@%','root'");
 	}
 	
 	public void closeDB() throws SQLException {

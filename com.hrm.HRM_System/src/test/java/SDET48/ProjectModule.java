@@ -29,7 +29,7 @@ public class ProjectModule {
 //		
 		driver.findElement(By.xpath("//ul[@class='list-unstyled components']/descendant::a[.='Projects']")).click();
 		driver.findElement(By.xpath("//span[.='Create Project']")).click();
-		driver.findElement(By.name("projectName")).sendKeys("Mohit Panday");
+		driver.findElement(By.name("projectName")).sendKeys("Mohit Pavan");
 		driver.findElement(By.name("createdBy")).sendKeys("Pavan");
 		
 		WebElement status=driver.findElement(By.xpath("//label[@class='col-sm-2 col-form-label']/following-sibling::select[@name='status']"));

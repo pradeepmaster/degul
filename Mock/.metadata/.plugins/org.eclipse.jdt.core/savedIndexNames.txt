@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\User\eclipse-workspace\Mock\.metadata\.plugins\org.eclipse.jdt.core
+2240043422.index
+205321489.index
+1865797976.index
+1509799344.index
+547292112.index

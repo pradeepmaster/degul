@@ -32,15 +32,15 @@ public class Arraycombining {
          for(int k=0;k<acc.length;k++)
          {
         	 
-        	// System.out.print(acc[k]+ " ");
-              x=acc[0]+acc[2];
-              y=acc[1]+acc[3];
-              z=acc[4];
+        	 System.out.print(acc[k]+ " ");
+//              x=acc[0]+acc[2];
+//              y=acc[1]+acc[3];
+//              z=acc[4];
             
         	 
         	 
          }
-         System.out.print(x +" "+ y+ " "+z);
+//         System.out.print(x +" "+ y+ " "+z);
 	}
 }
 
