@@ -11,16 +11,39 @@ import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.Map.Entry;
 import java.util.PriorityQueue;
+import java.util.Random;
 import java.util.Scanner;
 import java.util.Stack;
 import java.util.TreeMap;
 import java.util.TreeSet;
+import java.util.logging.FileHandler;
 
 public class Practice4 {
 
 	
+//	public static String randomAlphanumericString(int length) {
+//	    String alphanumericCharacters = "ABCDEFGHI!@#$%678JKLMNOPQRSTUVWXYZ0123456789abcdefghij!@#$%^&*()_klmnopqrstuv4327423787";
+//	 
+//	    StringBuffer randomString = new StringBuffer(length);
+//	    Random random = new Random();
+//	 
+//	    for (int i = 0; i < length; i++) {
+//	        int randomIndex = random.nextInt(alphanumericCharacters.length());
+//	        char randomChar = alphanumericCharacters.charAt(randomIndex);
+//	        randomString.append(randomChar);
+//	    }
+//	    return randomString.toString();
+//	}
+	
 	public static void main(String[] args) 
 	{
+//		for(int i=1;i<=10;i++)
+//		{
+//		String s=randomAlphanumericString(10);
+//		System.out.println(s);
+//		}
+		
+		
 //		ArrayList<Object> l1=new ArrayList<Object>();
 //		l1.add(10);
 //		l1.add(10);
@@ -2108,34 +2131,199 @@ public class Practice4 {
 //			}
 //		System.out.println(sb.toString());
 //	
-     int yes=2;
-     boolean flag=false;
-     for(int i=1;i<=7;i++)
-     {
-    	 for(int j=1;j<=5;j++)
-    	 {
-    		 if(j==1||i+j==6)
-    		 {
-    			 System.out.print("*");
-    		 }
-    		 else if(i>3&&j==yes)
-    		 {
-    			 flag=true;
-    		System.out.print("*");
-    		 }
-    		 else
-    		 {
-    			 System.out.print(" ");
-    		 }
-    	 }
-    	 System.out.println();
-    	 if(flag==true)
-    	 {
-    		 yes++;
-    	 }
-     }
-    
-	}
-	}
-	
+//	    int n=0;
+//         for(int i=0;i<=5;i++)
+//	    {
+//			n=(n*2)+1;
+//			System.out.print(n+" ");
+//		}
+//		int n=0;
+//		while(n<127)
+//		{
+//			n=(n*2)+1;
+//			System.out.print(n+" ");
+//		}
+//		int fib1=1;
+//		int fib2=2;
+//		int fib3=0;
+//		for(int i=0;i<=5;i++)
+//		{
+//			fib3=fib1+fib2;
+//			fib1=fib3;
+//			fib2=fib3+1;
+//			System.out.print(fib3+" ");
+//		}
+//	    for(int i=0;i<=100;)
+//	    {
+//	    	i=i+i;
+//	    	i++;
+//	    	System.out.println(i+" ");
+//	    }
+//		char[]arr= {'a','e','i','o','u'};
+//		for(int i=0;i<5;i++)
+//		{
+//			for(int j=0;j<5;j++)
+//			{
+//				if(i>=j)
+//				{
+//				 System.out.print(arr[j]+" ");
+//				}
+//			}
+//			System.out.println();
+//		}
+//		
+//		int yes=2;
+//		int no=1;
+//		boolean flag=false;
+//		boolean fl=false;
+//		for(int i=1;i<=7;i++)
+//		{
+//			for(int j=1;j<=7;j++)
+//			{
+//				if(j==1&&i%2==1||i==4&&j==7)
+//				{
+//					System.out.print("*");
+//				}
+//				else if(i<5&&j==yes)
+//				{
+//					flag=true;
+//					System.out.print("*");
+//				}
+//				else if(i>4&&i+j==10||i==4&&j==3)
+//				{
+//					fl=true;
+//					System.out.print("*");
+//				}
+//				else
+//				{
+//					System.out.print(" ");
+//				}
+//			}
+//			System.out.println();
+//			if(flag==true)
+//			{
+//				yes+=2;
+//			}
+//			if(fl==true)
+//			{
+//				no+=2;
+//			}
+//		}
+//		
+//		for(int i=1;i<=11;i++)
+//		{
+//			for(int j=1;j<=17;j++)
+//			{
+//				if(j==9||i==11&&j<9||i==1&&j>8)
+//				{
+//					System.out.print("*");
+//				}
+//				else if(i==6||j==1&&i<6||j==17&&i>6)
+//				{
+//					System.out.print("*");
+//				}
+//				else
+//				{
+//					System.out.print(" ");
+//				}
+//			}
+//			System.out.println();
+//		}
+//		
+//		int []arr= {1,5,8};
+//		for(int i=1;i<=10;i++)
+//		{
+//			boolean flag=false;
+//          for(int k=0;k<arr.length;k++)
+//          {
+//        	  if(arr[k]==i)
+//        	  {
+//        		  flag=true;
+//        	  }
+//          }
+//          if(!flag)
+//    	  {
+//    		  System.out.print(i+" ");
+//    	  }
+//		}
+//	   String s="god";
+//	   String s1="dog";
+//        char[]arr=s.toCharArray();
+//        char[]arr1=s1.toCharArray();
+//         Arrays.sort(arr);
+//         Arrays.sort(arr1);
+//	      if(Arrays.equals(arr, arr1)==true)
+//	      {
+//	    	  System.out.println("anagram");
+//	      }
+//	      else
+//	      {
+//           System.out.println("no");	    	  
+//	      }
+//	
+//		
+//	 String s="ssf12dff11xfff5gdfg6";
+//	 String[]arr=s.split("[^\\d]+");
+//	 System.out.println(Arrays.toString(arr));
+//	int[]in=new int[arr.length];
+//	int multi=1;
+//	 for(int i=1;i<arr.length;i++)
+//	 {
+//		 in[i]=Integer.parseInt(String.valueOf(arr[i]));
+//		 multi=multi*in[i];
+//		 System.out.print(in[i]+"*");
+//	 }
+//	 System.out.print("="+multi);
+//		
+//	String s="pe ed arpmaih";
+//	int i=s.length()-1,k=s.length()-1;
+//	while(k>-1)
+//	{
+//		for(int j=0;j<s.length();j++)
+//		{
+//			if(s.charAt(j)!=' ')
+//			{
+//				if(s.charAt(i)==' ')
+//				{
+//					i--;
+//					k--;
+//				}
+//				System.out.print(s.charAt(i--));
+//				k--;
+//			}
+//			else
+//			{
+//				System.out.print(" ");
+//				k--;
+//			}
+//		}
+//	}
+//		String s="fsdj12kjsd4jdfn4jn5";
+//		String[]arr=s.split("[^\\d]+");
+//		System.out.println(Arrays.toString(arr));
+//		int[]in=new int[arr.length];
+//		int multi=1;
+//		for(int i=1;i<arr.length;i++)
+//		{
+//			in[i]=Integer.parseInt(String.valueOf(arr[i]));
+//			multi=multi*in[i];
+//			System.out.print(in[i]+"*");
+//		}
+//		System.out.print("="+multi);
+		
+		String s="hnhiub6c364578nm9mjnbhnhj/9999/jgtrcvjki8nj";
+		s=" "+s+"    ";
+		for(int i=0;i<s.length();i++)
+			{
+if((s.charAt(i)>='0'&&s.charAt(i)<='9')&&(s.charAt(i+1)>='0'&&s.charAt(i+1)<='9')&&(s.charAt(i+2)>='0'&&s.charAt(i+2)<='9')&&
+		(s.charAt(i+3)>=' '&&s.charAt(i+3)<='9')&&(s.charAt(i-1)=='/'&&s.charAt(i+4)=='/'))
+              {
+	                 System.out.print(s.charAt(i));
+	                 System.out.print(s.charAt(i+1));
+	                 System.out.print(s.charAt(i+2));
+	                 System.out.print(s.charAt(i+3));
+              }
+			}
+			}
+}
 
